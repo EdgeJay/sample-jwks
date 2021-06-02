@@ -1,0 +1,18 @@
+{
+  "ignore": [
+    "bin/**/*",
+    "node_modules/**/*"
+  ],
+  "verbose": true,
+  "execMap": {
+    "ts": "node -r ts-node/register --inspect"
+  },
+  "watch": [
+    ".env",
+    "./src/"
+  ],
+  "env": {
+    "TS_NODE_FILES": true
+  },
+  "ext": "ts"
+}

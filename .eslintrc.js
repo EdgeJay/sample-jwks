@@ -45,7 +45,14 @@ module.exports = {
         'import/named': 'off',
         'import/no-extraneous-dependencies': [
           'error',
-          { devDependencies: ['**/*.test.ts', '**/*.spec.ts', '**/*.steps.ts'] },
+          {
+            devDependencies: [
+              '**/*.test.ts',
+              '**/*.spec.ts',
+              '**/*.steps.ts',
+              './src/utils/cli.ts',
+            ],
+          },
         ],
         '@typescript-eslint/explicit-function-return-type': 'warn',
         '@typescript-eslint/no-var-requires': 'error',

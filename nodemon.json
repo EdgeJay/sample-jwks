@@ -9,7 +9,8 @@
   },
   "watch": [
     ".env",
-    "./src/"
+    "./src/",
+    "./keys/"
   ],
   "env": {
     "TS_NODE_FILES": true
